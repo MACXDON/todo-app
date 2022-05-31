@@ -1,0 +1,13 @@
+.Tasks {
+    background-color: rgb(55, 128, 192);
+    margin: 0.5rem 0;
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.task, .removeTask, .completeTask {
+    margin: 0 0.75rem;
+}
