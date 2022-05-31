@@ -7,11 +7,7 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      tasks: [
-        'clean house',
-        'cook',
-        'water plants'
-      ]
+      tasks: []
     }
 
     this.addTask = this.addTask.bind(this);
@@ -37,7 +33,6 @@ class App extends React.Component {
     
     this.setState({ tasks: newTasks })
   }
-
 
   render() {
     return (
